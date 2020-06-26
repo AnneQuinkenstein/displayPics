@@ -51,10 +51,10 @@ class App extends Component {
 
   render(){
     return (
-      <>
+      <div className="App">
       <Dropdownlist handleChoice={this.handleSelectAnimal}/>
       <AnimalsList animals={this.choice()}/>
-      </>
+      </div>
     )
   }
 

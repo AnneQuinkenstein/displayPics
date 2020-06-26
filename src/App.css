@@ -1,7 +1,14 @@
+.App{
+  background: url(./external-content.duckduckgo.com.jpeg);
+  height: 100vh;
+  background-size: cover; 
+}
+
 .Dropdownlist{
   margin: 20px; 
   display:inline-block; 
-  width: 70px; 
+  width: 90px; 
+  text-align: left;
   border: 1px solid #aaaaaa; 
   box-shadow: 0 1px 0 1px rgba(0,0,0,0.4);
   border-radius: 0 .7em;
@@ -17,7 +24,7 @@
 
 
 .Dropdownlist::-ms-expand {
-	display: none;
+  display: none;
 }
 .Dropdownlist:hover {
 	border-color: #888;
@@ -41,10 +48,12 @@
 .divContainer {
   width: 20vw; 
   display: flex;
-  border: 2px solid black; 
+  border: 5px solid transparent; 
   flex-direction: column; 
   border-radius: 0 90px;
   overflow: hidden;
+  background-color: #e7aa46;
+  opacity: 0.9;
 }
 
 .imgContainer{
