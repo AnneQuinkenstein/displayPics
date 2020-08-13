@@ -3,6 +3,7 @@ import './App.css';
 import Dropdownlist from './components/Dropdownlist';
 import AnimalsList from './components/AnimalsList';
 
+
 const cats = [
   {
       name: 'Kandy',
